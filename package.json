@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "Ejercicio",
+  "author": {
+    "name": "willy"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.15.6",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0",
+    "sqlite3": "^4.0.6",
+    "toml": "^3.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "users": {
+    "user_id": "integer",
+    "name": "text"
+  },
+  "orders": {
+    "order_id": "integer",
+    "priority": "integer",
+    "address": "text",
+    "user_id": "integer",
+    "delivery_date": "text"
+  },
+  "products": {
+    "product_id": "integer",
+    "name": "text"
+  },
+  "providers": {
+    "provider_id": "integer",
+    "name": "text"
+  },
+  "orders_products": {
+    "order_id": "integer",
+    "product_id": "integer",
+    "quantity": "integer"
+  },
+  "providers_products": {
+    "provider_id": "integer",
+    "product_id": "integer"
+  },
+  "inventory": {
+    "inventory_id": "integer",
+    "product_id": "integer",
+    "quantity": "integer",
+    "inventory_date":  "text"
+  }
+}
